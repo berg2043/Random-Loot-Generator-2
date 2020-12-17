@@ -3,3 +3,6 @@ items-BACKUP.json
 
 # virtual env folder
 env
+
+# py
+__pycache__
