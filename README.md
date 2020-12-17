@@ -12,3 +12,4 @@ Much of the reference files will not be uploaded as they are not my property.
 04/08/19 Updated to roll each magic item and art/gem object. This is the first fully functional version  
 04/09/19 Created a JSON based loot generator that is much faster than the excel based version.  An excel file and accompanying converter are included to make changing the tables easier. 
 12/4/19 Began work on moving to django backend and HTML/JS frontend
+12/17/20 Pivoted to flask backend
