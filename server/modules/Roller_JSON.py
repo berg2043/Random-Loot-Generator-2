@@ -16,7 +16,7 @@ class RangeDict(dict):
             return super().__getitem__(item) 
 
 # Globals
-with open('items.json', 'r') as raw_item_db:
+with open('./modules/items.json', 'r') as raw_item_db:
   item_db = json.load(raw_item_db)
 challenge_rating_dict_raw = { 
   range(0, 5): 'CR 0-4',
