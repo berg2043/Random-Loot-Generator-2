@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import './App.css';
 
 function App() {
@@ -6,9 +7,19 @@ function App() {
   const [cr, setCr] = useState(null);
   const [group, setGroup] = useState('I');
   
+  // Setup Dispatch
+  const dispatch = useDispatch();
+
   function roll(event){
     event.preventDefault();
     console.log(cr,group);
+    dispatch({
+      type: 'GET_ROLL',
+      paylod: {
+        challengeRating: cr,
+        lootType: group
+      }
+    })
   }
   return (
     <div className="App">
