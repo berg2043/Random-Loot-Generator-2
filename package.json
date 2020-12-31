@@ -18,7 +18,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "cd .\\server\\ && flask run",
+    "python": "py -m venv env && .\\env\\scripts\\activate && pip install -r requirements.txt",
+    "start": ".\\env\\scripts\\activate && cd .\\server\\ && flask run",
     "client": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

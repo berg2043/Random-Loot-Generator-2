@@ -14,9 +14,10 @@ This project will eventually have a random loot generator that has a fully flesh
 ## Installation
 
 Create and virtual env, activate it run
-> pip install -r requirement.txt
 
 > npm install
+
+> pip run python
 
 > npm run build
 
