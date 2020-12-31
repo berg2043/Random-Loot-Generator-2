@@ -15,9 +15,13 @@ This project will eventually have a random loot generator that has a fully flesh
 
 Create and virtual env, activate it run
 > pip install -r requirement.txt
+
 > npm install
+
 > npm run build
+
 change directory to ./server
+
 > flask run
 
 ## Usage
