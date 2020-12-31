@@ -9,9 +9,9 @@ function Loot() {
       {Object.keys(loot).map(key => {
         return (
           <div>
-            <h1>
+            <h2>
               {key}
-            </h1>
+            </h2>
             <ul>
               {loot[key].map(item => {
                 return (
