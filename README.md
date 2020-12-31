@@ -24,6 +24,8 @@ Create and virtual env, activate it run
 
 ## Usage
 
+Navigate to localhost:5000/
+
 Input the CR and select if it is loot from an individual or group/hoard loot.
 
 Click `roll` and the app will roll up loot using the respective tables.
