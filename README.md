@@ -20,9 +20,7 @@ Create and virtual env, activate it run
 
 > npm run build
 
-change directory to ./server
-
-> flask run
+> npm run start
 
 ## Usage
 
