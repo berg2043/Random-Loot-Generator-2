@@ -1,12 +1,29 @@
 import { useSelector } from 'react-redux';
 
-function Loot(){
+function Loot() {
 
-  const loot = useSelector(state=>state.loot)
+  const loot = useSelector(state => state.loot)
 
-  return(
-    <div>{`${JSON.stringify(loot)}`}</div>
-    
+  return (
+    <div>
+      {Object.keys(loot).map(key => {
+        return (
+          <div>
+            <h1>
+              {key}
+            </h1>
+            <ul>
+              {loot[key].map(item => {
+                return (
+                  <li>{item}</li>
+                )
+              })}
+            </ul>
+          </div>
+        )
+      })}
+    </div>
+
   )
 }
 
