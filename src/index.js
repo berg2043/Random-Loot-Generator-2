@@ -7,6 +7,7 @@ import rootReducer from './redux/reducers';
 import rootSaga from './redux/sagas';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
+import logger from 'redux-logger';
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -14,7 +15,7 @@ const middlewareList =  [sagaMiddleware];
 
 const store = createStore(
   rootReducer,
-  applyMiddleware(...middlewareList),
+  applyMiddleware(logger,...middlewareList),
 );
 
 sagaMiddleware.run(rootSaga);
