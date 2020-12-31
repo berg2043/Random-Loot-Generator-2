@@ -12,7 +12,7 @@ function* getRoll(action){
         }
       }
     );
-    yield put({type: 'SET_LOOT', payload: response.data});
+    yield put({type: 'LOOT', payload: response.data});
   } catch (error) {
     console.log('Error eith GetRoll', error);
   }

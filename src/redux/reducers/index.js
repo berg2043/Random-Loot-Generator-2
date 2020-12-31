@@ -14,6 +14,7 @@ const createReducer = (string, type=[]) => {
 }
 
 const rootReducer = combineReducers({
+  createReducer('LOOT')
 });
 
 export default rootReducer;
