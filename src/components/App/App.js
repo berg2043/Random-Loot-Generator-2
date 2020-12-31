@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import './App.css';
+import Loot from './../Loot/Loot';
 
 function App() {
   // States
@@ -54,6 +55,7 @@ function App() {
             <button>Roll!</button>
           </form>
         </div>
+        <Loot/>
         <div className="roll-item"></div>
       </div>
     </div>
