@@ -1,6 +1,6 @@
 # RandomLootGenerator v1.02
 
-## Descriptipon
+## Description
 
 Dungeons and Dragons Random Loot generator 
 
