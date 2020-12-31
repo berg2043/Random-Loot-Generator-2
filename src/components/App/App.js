@@ -15,7 +15,7 @@ function App() {
     console.log(cr,group);
     dispatch({
       type: 'GET_ROLL',
-      paylod: {
+      payload: {
         challengeRating: cr,
         lootType: group
       }
