@@ -13,7 +13,7 @@ This project will eventually have a random loot generator that has a fully flesh
 
 ## Installation
 
-Create and virtual env, activate it run
+Run
 
 > npm install
 
