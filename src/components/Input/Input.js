@@ -24,6 +24,9 @@ function Input() {
 
   return (
     <div className="roll-item">
+      <h2>
+        Input challenge rating and loot type
+      </h2>
       <form onSubmit={(event)=>{roll(event)}}>
         <label>CR</label>
         <br/>

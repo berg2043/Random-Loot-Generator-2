@@ -1,11 +1,12 @@
 import { useSelector } from 'react-redux';
+import './Loot.css';
 
 function Loot() {
 
   const loot = useSelector(state => state.loot)
 
   return (
-    <div>
+    <div className = "Loot">
       {Object.keys(loot).map(key => {
         return (
           <div>
