@@ -15,7 +15,7 @@
 }
 @media(min-width: 1200px){
   .Roll-Container{
-    width: 1170px;
+    width: 1100px;
   }
 }
 
@@ -25,6 +25,8 @@
   margin-right: auto;
   margin-left: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
+  line-height: 1.42857143;
+  font-family: Arial,sans-serif;
 }
 

@@ -1,0 +1,14 @@
+#Roll-Button {
+  border-radius: 10px;
+  background-color: rgb(0,0,0);
+  color: #bbb;
+  width: 340px;
+  height: 25px;
+  margin-top: 8px;
+  
+}
+form {
+  text-align: left;
+  margin-right: 0;
+  margin-left: 0;
+}

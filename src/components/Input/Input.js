@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import './Input.css';
 
 function Input() {
   // States
@@ -28,12 +29,11 @@ function Input() {
         Input challenge rating and loot type
       </h2>
       <form onSubmit={(event)=>{roll(event)}}>
-        <label>CR</label>
-        <br/>
+        <label><strong>Challenge Rating: </strong></label>
+        
         <input type="text" onChange={(event)=>{setCr(event.target.value)}}/>
         <br/>
-        <label>Drop Method</label>
-        <br/>
+        <label><strong>Drop Method: </strong></label>
         <input 
           type="radio" 
           id="individual" 
@@ -53,7 +53,7 @@ function Input() {
         />
         <label htmlFor="group">Loot Horde</label>
         <br/>
-        <button>Roll!</button>
+        <button id="Roll-Button">Roll!</button>
       </form>
     </div>
   )

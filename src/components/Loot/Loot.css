@@ -4,3 +4,7 @@
 h2 {
   text-align: center;
 }
+li {
+  padding-left: 100px;
+  list-style-position:inside
+}
